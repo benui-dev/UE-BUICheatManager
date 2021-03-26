@@ -1,0 +1,23 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "BUI Cheat Manager",
+	"Description": "",
+	"CreatedBy": "benui",
+	"CreatedByURL": "https://benui.ca/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "BUICheatManager",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+	]
+}
