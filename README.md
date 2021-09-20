@@ -27,7 +27,7 @@ public:
    **required**. The shortcut names only work by using the asset tags registry.
 4. Set your PlayerController to use the Blueprint subclass of your Cheat
    Manager.
-5. Play the game and press tilde `\`` to bring up the console. Your cheats will
+5. Play the game and press tilde \` to bring up the console. Your cheats will
    be listed in Cyan with the prefix set in CheatPrefix.
 
 
