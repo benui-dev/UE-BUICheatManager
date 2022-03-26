@@ -123,7 +123,7 @@ void UBUICheatManagerBase::RegisterAutoCompleteEntries( TArray<FAutoCompleteComm
 			continue;
 		}
 
-		for ( const auto& Pair : Asset.TagsAndValues.GetMap() )
+		for ( const auto& Pair : Asset.TagsAndValues.CopyMap() )
 		{
 			const FString TagName = Pair.Key.ToString();
 			if ( !TagName.StartsWith( TagNamespace ) )
