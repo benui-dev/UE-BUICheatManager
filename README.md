@@ -18,7 +18,7 @@ class UMyCheatManager : public UBUICheatManagerBase
 
 public:
 	UFUNCTION( exec, meta = ( Cheat = "car.spawn" ) )
-		void SpawnCar( int32 num );
+	void SpawnCar( int32 num );
 };
 ```
 2. Add cheat functions as you would normally, but add the tag "Cheat" with
